@@ -5,13 +5,13 @@ import { Button } from '../UI/Button/Button'
 export const GameBoard = () => {
   const [gameStart, setGameStart] = useState(false)
 
-  const handleClick = (ev) => {
+  const handleClick = () => {
     setGameStart(!gameStart)
   }
   return (
     <div className="game-board">
       {!gameStart ? (
-        <Button btnType="btn__start" onClick={(ev) => handleClick(ev)}>
+        <Button btnType="btn__start" onClick={handleClick}>
           Start
         </Button>
       ) : (
