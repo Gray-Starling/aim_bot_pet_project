@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html[data-theme='dark'] {
+  --colors-text: green;
+  --colors-bg: yellow;
+  --colors-border: #560d79;
+}
+
+html[data-theme='light'] {
+  --colors-text: red;
+  --colors-bg: blue;
+  --colors-border: green;
+}
+
+// :root {
+//   --family-m: 'Montserrat', sans-serif;
+//   --family-o: 'Open Sans', sans-serif;
+//   --fs-mm: 12px;
+//   --fs-sm: 14px;
+//   --fs-md: 16px;
+//   --fs-lg: 18px;
+//   --fs-20: 20px;
+//   --fs-vb: 24px;
+//   --fs-vlg: 42px;
+//   --global-max-width: 1280px;
+//   --global-radius: 6px;
+//   --wrapper-w1280-mb: 120px;
+//   --wrapper-w760-mb: 60px;
+//   --colors-like-active: #ff3300;
+
+//   --main-accent-color-default: #ff8a00;
+//   --main-accent-color-hover: #ff9f2e;
+//   --main-accent-color-pressed: #ff8a00;
+//   --main-accent-color-disabled: #ffd4a1;
+
+//   --secondary-accent-color-default: #12ac3a;
+//   --secondary-accent-color-hover: #12ac3a;
+//   --secondary-accent-color-pressed: #119433;
+
+//   --third-accent-color-default: #2c2828;
+//   --third-accent-color-disabled: #afafaf;
+
+//   --bg-arrow-hover: #f9f9f9;
+
+//   --bg-search: #f9f9f9;
+//   --bg-cabinetBlock: #f9f9f9;
+//   --bg-basketBlock: #f9f9f9;
+
+//   --button-disabled: #ffd4a1;
+//   --button-bg: #fff;
+
+//   --text: #2c2828;
+//   --inverted-text: #ffffff;
+//   --like: #e20000;
+//   --text-body: #565353;
+//   --text-disabled: #afafaf;
+//   --bg-1: #ff8a00;
+//   --bg-2: #12ac3a;
+//   --bg-3: #2c2828;
+//   --bg-4: #ffffff;
+//   --bg-5: #e20000;
+//   --shadow-card: 0px 2px 6px rgba(196, 196, 196, 0.6);
+//   --shadow-card-hover: 6px 7px 12px rgba(60, 57, 57, 0.6);
+
+//   --mb-desktop: 120px;
+//   --mb-mobile: 80px;
+
+//   --transition: 0.3s;
+// }
+
+// body[data-theme='dark'] {
+//   --colors-text: white;
+//   --colors-bg: black;
+// }
+
+// body[data-theme='light'] {
+//   --colors-text: var(--text-body);
+//   --colors-bg: white;
+// }
+
+// body {
+//   font-family: var(--family);
+//   color: var(--colors-text);
+//   background-color: var(--colors-bg);
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+
+//   @include mobile {
+//     font-size: var(--fs-sm);
+//   }
+
+//   @include tablet {
+//     font-size: var(--fs-md);
+//   }
+// }
+
+// h1,
+// h2,
+// h3 {
+//   font-family: var(--family-h);
+// }
+
+// h1 {
+//   font-size: 48px;
+//   font-weight: 700;
+// }
+
+// h2 {
+//   font-size: 42px;
+//   font-weight: 600;
+//   margin-bottom: 48px;
+// }
+
+// h3 {
+//   font-size: 24px;
+//   color: var(--third-accent-color-default);
+//   font-weight: 700;
+// }
+
+// h4 {
+//   font-size: 18px;
+//   font-family: var(--family);
+//   color: #333;
+// }
+
+// .col {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .row {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   //width: 100%;
+// }
+
+// .column {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .jc-sb {
+//   justify-content: space-between;
+// }
+
+// .jc-fe {
+//   justify-content: flex-end;
+// }
+
+// .ai-center {
+//   align-items: center;
+// }
+
+// .ai-start {
+//   align-items: flex-start;
+// }
+
+// .gap20 {
+//   gap: 20px;
+// }
+
+// .pointer {
+//   cursor: pointer;
+// }
+
+// .width100 {
+//   width: 100%;
+// }
+
+// .ta-left {
+//   text-align: left;
+//   text-align: -webkit-left;
+//   text-align: -moz-left;
+// }
+
+// .ta-right {
+//   text-align: right;
+//   text-align: -webkit-right;
+//   text-align: -moz-right;
+// }
+
+// .mt20 {
+//   margin-top: 20px;
+// }

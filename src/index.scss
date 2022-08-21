@@ -1,24 +1,9 @@
-@import-normalize;
-@import './scss/scss-fonts';
-@import './scss/mixins/mixins';
-@import './scss/variables/variables';
+@import './assets/scss/normalize.scss';
+@import './assets/scss/mixins';
+@import './assets/scss/castom_scroll';
+@import './assets/scss/base.scss';
 
 body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(90deg, $white0 0%, $white20 60%);
-  color: #fff;
-  @include Montserrat-regular;
-  height: 100vh;
-  overflow: hidden;
-  text-align: center;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #16d9e3;
+  background-color: var(--colors-bg);
+  transition: background-color 200ms linear;
 }
