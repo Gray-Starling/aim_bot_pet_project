@@ -1,0 +1,98 @@
+// .castom__scroll {
+//   height: 200px;
+//   overflow-y: auto;
+//   scrollbar-color: #dfdcdc #fff;
+//   scrollbar-width: thin;
+// }
+
+// .castom__scroll::-webkit-scrollbar {
+//   /* 1 - скроллбар */
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   box-sizing: border-box;
+//   border-radius: 10px;
+//   background: #fff;
+//   width: 25px;
+// }
+
+// .castom__scroll::-webkit-scrollbar-button {
+//   /* 2 - кнопка */
+// }
+
+// .castom__scroll::-webkit-scrollbar-track {
+//   /* 3 - трек */
+//   border-radius: 10px;
+//   border: 0.6px solid #8e8a8a;
+// }
+
+// .castom__scroll::-webkit-scrollbar-track-piece {
+//   /* 4 - видимая часть трека */
+// }
+
+// .castom__scroll::-webkit-scrollbar-thumb {
+//   /* 5 - ползунок */
+//   background: #dfdcdc;
+//   border-radius: 10px;
+//   height: 20px;
+//   width: 23px;
+// }
+
+// .castom__scroll--green {
+//   max-height: 200px;
+//   overflow-y: auto;
+//   scrollbar-color: #41A664 #fff;
+//   scrollbar-width: thin;
+// }
+
+// .castom__scroll--green::-webkit-scrollbar {
+//   /* 1 - скроллбар */
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   box-sizing: border-box;
+//   border-radius: 13px;
+//   background: #F0EDED;
+//   width: 8px;
+// }
+
+// .castom__scroll--green::-webkit-scrollbar-button {
+//   /* 2 - кнопка */
+// }
+
+// .castom__scroll--green::-webkit-scrollbar-track {
+//   /* 3 - трек */
+//   border-radius: 10px;
+// }
+
+// .castom__scroll--green::-webkit-scrollbar-track-piece {
+//   /* 4 - видимая часть трека */
+// }
+
+// .castom__scroll--green::-webkit-scrollbar-thumb {
+//   /* 5 - ползунок */
+//   background: #41A664;
+//   border-radius: 10px;
+//   height: 20px;
+//   width: 8px;
+// }
+
+::-webkit-scrollbar {
+  /* 1 - скроллбар */
+  width: 8px;
+  height: 4px;
+  background-color: #f0eded;
+  box-sizing: border-box;
+  border-radius: 13px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-accent-color-default);
+  border-radius: 10px;
+  height: 20px;
+  width: 8px;
+}
